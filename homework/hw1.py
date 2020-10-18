@@ -23,8 +23,8 @@ def newtonArray(f, df, x0, n):
     x = np.zeros(n+1)
     x[0] = x0
     for k in range(n):
-        x[k+1] = x[k] - f(x[k]/df(x[k]) 
-    return x
+        x[k+1]=x[k] -  f(x[k])/df(x[k]):
+    
 def plotError(y, x):
     '''
     Plot the error using matplotlib
